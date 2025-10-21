@@ -1,0 +1,10 @@
+# Build artifacts
+TicTacToeBot
+*.o
+build/
+Debug/
+Release/
+
+# VS Code settings
+.vscode/
+
