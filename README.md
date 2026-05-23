@@ -25,7 +25,6 @@ A simple Discord bot that allows users to play Tic Tac Toe against each other us
     git clone [https://github.com/Chestajain/TicTacToe-DiscordBot.git](https://github.com/Chestajain/TicTacToe-DiscordBot.git)
     cd TicTacToe-DiscordBot/TicTacToe
     ```
-    *(Note: Assuming your code lives inside the `TicTacToe` subfolder within the repo)*
 
 2.  **Install D++:** Follow the official [D++ build instructions](https://dpp.dev/build.html) for your operating system (macOS). This typically involves using CMake. Ensure the library is installed in a location your compiler can find.
 
@@ -34,13 +33,11 @@ A simple Discord bot that allows users to play Tic Tac Toe against each other us
     # Make sure you are in the TicTacToe directory containing main.cpp, etc.
     clang++ main.cpp TicTacToe.cpp -std=c++17 -ldpp -o TicTacToeBot
     ```
-    *(Alternatively, if you create a `CMakeLists.txt` for this project, you would typically use `cmake . && make`)*
 
-4.  **Set Environment Variable:** Before running, you **must** provide your bot token as an environment variable. Replace `YOUR_NEW_BOT_TOKEN_HERE` with the actual **new** token you generated after resetting it:
+4.  **Set Environment Variable:** Before running, you must provide your bot token as an environment variable. Replace `YOUR_NEW_BOT_TOKEN_HERE` with the actual new token you generated after resetting it:
     ```bash
     export BOT_TOKEN="BOT_TOKEN"
     ```
-    *(This variable needs to be set in the terminal session where you run the bot)*
 
 5.  **Run the Bot:**
     ```bash
