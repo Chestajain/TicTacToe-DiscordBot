@@ -14,7 +14,6 @@ A simple Discord bot that allows users to play Tic Tac Toe against each other us
 
 * A C++ compiler supporting C++17 or later (e.g., GCC, Clang/LLVM). Your VSCode settings indicate you are using `clang++` on macOS.
 * The [D++ library](https://dpp.dev/build.html) installed.
-* CMake (Recommended for building D++ and this project).
 * Git (for cloning if obtained from GitHub).
 * A Discord Bot Token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
 
@@ -53,10 +52,8 @@ A simple Discord bot that allows users to play Tic Tac Toe against each other us
 
 ## Invite the Bot
 
-You can invite this bot to your Discord server using the following link (replace with the actual invite URL you generated in the Discord Developer Portal):
+You can invite this bot to your Discord server using the following link:
 
 [Invite Link](https://discord.com/oauth2/authorize?client_id=1427666307515551866&permissions=68608&integration_type=0&scope=bot+applications.commands)
 
-## License
 
-No license provided.
